@@ -13,7 +13,7 @@ output: pdf_document
 
 * Calculer la probabilité de battre un record à l'épreuve $m$
 
-###### Réponse : 
+###### Réponse : (1/2)^(m-1)
 
 ** **
 
@@ -21,7 +21,7 @@ output: pdf_document
 
 * Donner l'espérance de $N$ pour $n = 27$. 
 
-###### Réponse : 
+###### Réponse : 1.999999985
 
 ** **
 
@@ -30,7 +30,7 @@ output: pdf_document
 * Calculer ${\rm E}[Y_n]$.
 
 
-###### Réponse : 
+###### Réponse : (n-1)/2
 
 ** **
 
@@ -38,7 +38,7 @@ output: pdf_document
 
 * Calculer la valeur de la variance Var$[Y_3]$.
 
-###### Réponse : 
+###### Réponse : 1/3
 
 ** **
 
@@ -46,7 +46,7 @@ output: pdf_document
 
 * Calculer Var$[Y_n]$ pour tout $n \geq 2$.
 
-###### Réponse : 
+###### Réponse : (n-1)/12
 
 ** **
 
@@ -66,7 +66,7 @@ output: pdf_document
 
 
 
-###### Réponse : 
+###### Réponse : c = 10
 
 ** ** 
 
@@ -75,7 +75,7 @@ output: pdf_document
 
 * Déterminer la fonction de répartition de la variable $Y$. Donner sa valeur au point $t = 2/3$. 
 
-###### Réponse : 
+###### Réponse : FY(t) = t^5*χ[0,1] (χ[0,1] désigne l'indicatrice de [0, 1]. FY(2/3) = 0.13168
 
 ** **
 
@@ -85,7 +85,8 @@ output: pdf_document
 
 * Ecrire un algorithme de simulation d'un couple de densité $f(x,y)$.  
 
-###### Réponse : 
+###### Réponse : Y := (ALEA/5)^(1/4)
+                 X := Y^2*ALEA/2
 
 ** **
 
@@ -93,8 +94,8 @@ output: pdf_document
 
 
 * On pose $Z =  X Y$. Déterminer la densité de la loi de la variable $Z$.
-   
-###### Réponse : 
+  
+###### Réponse : fZ(z) = 10z-15√z/2
 
 
 ** ** 
